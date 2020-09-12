@@ -6,6 +6,7 @@ const { sendWelcomeEmail, sendCancelEmail } = require('../emails/account.js');
 const auth = require('../middleware/auth');
 const User = require('../models/user');
 
+/* Create a new user */
 router.post('/users', async (req, res) => {
     const user = new User(req.body);
 

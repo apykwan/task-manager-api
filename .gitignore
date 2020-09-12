@@ -4,3 +4,5 @@ config
 mongodb.js
 images
 avatars
+math.js
+test
